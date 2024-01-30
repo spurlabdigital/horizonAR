@@ -1,0 +1,32 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
+    "animejs": "^3.2.1",
+    "lil-gui": "^0.18.2",
+    "mapbox-gl": "^2.15.0",
+    "pinia": "^2.0.35",
+    "stats.js": "^0.17.0",
+    "swiper": "^9.4.1",
+    "three": "^0.151.3",
+    "troika-three-text": "^0.47.1",
+    "vue": "^3.2.47",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "eslint": "8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.3.0",
+    "prettier": "2.7.1",
+    "vite": "4.3.9",
+    "vite-plugin-mkcert": "^1.16.0"
+  }
+}

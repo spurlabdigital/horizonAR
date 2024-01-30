@@ -1,0 +1,78 @@
+@import "reset.css";
+@import "fonts.css";
+
+
+:root {
+    --swiper-theme-color: #FF6632 !important;
+    --orange: #FF6632;
+    --lightGrey: #F5F5F5;
+    --middleGrey: #494949;
+    --darkGrey: #404040;
+    --background: #FF6632;
+    --white: #FFFFFF;
+   /*--swiper-pagination-top: 15vh;*/
+   /*--swiper-pagination-top: 70l;*/
+   --swiper-pagination-top: 500px;
+   /* --swiper-pagination-bottom: 40px;*/
+}
+
+html,
+body {
+    overflow-x: hidden;
+    background: white;
+        width: 100vw;
+    max-width: 100vw;
+
+}
+
+#app {
+    overflow-x: hidden;
+    overscroll-behavior: none;
+    /*height: -webkit-fill-available;*/
+    background: white;
+
+    width: 100vw;
+    max-width: 100vw;
+    /*min-height: 100vh;*/
+    /*max-height: 100vh;*/
+}
+
+
+.addSpace {
+    height: 50vh;
+}
+
+
+
+.slide-enter-from {
+    opacity: 0;
+    filter: brightness(0);
+}
+
+.slide-enter-active{
+    transition: all 0.25s ease-in-out;
+}
+
+.slide-enter-to {
+    opacity: 1;
+        filter: brightness(1);
+}
+
+
+.slide-leave-from {
+    opacity: 1;
+        filter: brightness(1);
+}
+
+.slide-leave-active {
+    transition: all 0.25s ease-in-out;
+}
+
+.slide-leave-to {
+    opacity: 0;
+        filter: brightness(0);
+}
+
+
+
+
